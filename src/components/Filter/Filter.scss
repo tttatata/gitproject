@@ -1,0 +1,25 @@
+.formInput {
+  width: 100%;
+  display: inline-flex;
+  label {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+}
+.select-home {
+  width: 50%;
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+  font-weight: 400;
+
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
